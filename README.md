@@ -20,14 +20,23 @@ These specific commands also listed in  server/db/index.js:
 
   you also can just run npm run db:seed
 
-  in the front end, in ChatRoom.jsx, the socket.io defaults to local host.  for deployment, adjust the variable as needed.  
+  in the front end, in ChatRoom.jsx, the socket.io defaults to local host.  for deployment, adjust the variable as needed. 
+
+**Google Calendar**
+  need to go to the google calendar API and get an API KEY. Need to create an email address associated with the community group. Get a calendar id for the calendar and add that and the API key to the .env file.
+
+
+  **Bike Registry**
+    Need to create an account with BikeIndex.org. Then, create an organization to use the registry API.
+
+
 # TECH WE USE
 **FRONTEND**
     axios - Promise based HTTP client for the browser and node.js
     bootstrap - Sleek, intuitive, and powerful front-end framework for faster and easier web development.
     react - React is a JavaScript library for creating user interfaces.
     react-bootstrap - Create documentation layouts for your react-styleguidist using Bootstrap-Styled rsg-component.
-    react-calendar - Ultimate calendar for your React app.
+    react-google-calendar - Calendar linked to google calendar. Displays events dynamically.
     react-datepicker - A simple and reusable Datepicker component for React
     react-google-login - A simple small package with action - (login / sign-in) button.
     react-google-maps - react-google-maps provides a set of React components wrapping the underlying Google Maps JavaScript API v3 instances.
